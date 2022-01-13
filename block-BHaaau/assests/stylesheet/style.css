@@ -127,3 +127,86 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 18px;
+  padding: 18px;
+  width: 900px;
+}
+h1 {
+  font-size: 50px;
+}
+.dashed-line {
+  border: 1px dashed #a1a1a1;
+  width: 500px;
+  margin: 0 auto;
+}
+
+main {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.box-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.margin {
+  width: 260px;
+  height: 260px;
+  padding: 30px;
+  background-color: indianred;
+}
+.padding {
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  padding: 20px;
+  background-color: lightblue;
+}
+.content {
+  width: 150px;
+  height: 150px;
+  background-color: lightcyan;
+}
+
+.box-container-info {
+  margin: 18px 0;
+}
+.content-color,
+.padding-color,
+.border-color,
+.margin-color {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0 15px;
+}
+
+.content-color {
+  background: lightcyan;
+}
+.padding-color {
+  background: lightblue;
+}
+.margin-color {
+  background: indianred;
+}
+.border-color {
+  background: black;
+}
