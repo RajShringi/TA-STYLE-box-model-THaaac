@@ -137,7 +137,7 @@ body {
 
 header {
   text-align: center;
-  margin-bottom: 18px;
+  margin: 0 auto;
   padding: 18px;
   width: 900px;
 }
@@ -148,7 +148,8 @@ h2 {
   font-size: 30px;
 }
 p {
-  font-size: 18px;
+  font-size: 24px;
+  margin: 18px 0;
 }
 .dashed-line {
   border: 1px dashed #a1a1a1;
@@ -171,26 +172,28 @@ h2 {
 }
 
 .box-container {
-  width: 300px;
   margin: 0 auto;
 }
 
 .margin {
-  width: 260px;
-  height: 260px;
-  padding: 30px;
+  width: 400px;
+  height: 400px;
+  padding: 40px;
+  margin: 0 auto;
   background-color: indianred;
 }
 .padding {
-  width: 200px;
-  height: 200px;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
   border: 3px solid black;
-  padding: 20px;
+  padding: 40px;
   background-color: lightblue;
 }
 .content {
-  width: 150px;
-  height: 150px;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
   background-color: lightcyan;
 }
 
@@ -221,15 +224,32 @@ h2 {
   background: black;
 }
 
-.no-border-container {
-  border: 2px solid #333;
-  padding: 18px;
-  margin-top: 18px;
+.no-border-container,
+.two-box-container,
+.same-line-box-container {
+  border: 2px solid #a1a1a1;
+  padding: 10px;
+  margin: 80px 0;
 }
-.box {
+.box,
+.box-border {
   display: inline-block;
   width: 200px;
   height: 100px;
   background: #a1a1a1;
   margin: 0 5px;
+}
+.two-box-container {
+  text-align: left;
+}
+.box-border {
+  border: 1px solid black;
+  margin-right: 10px;
+  margin-left: 0;
+}
+.single-box-container {
+  width: 200px;
+  height: 100px;
+  background: #a1a1a1;
+  border: 1px solid black;
 }
